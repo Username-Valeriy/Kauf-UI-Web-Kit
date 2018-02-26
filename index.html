@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Kauf-UI-Web-Kit</title>
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/player.css">
@@ -11,15 +12,13 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/media-responsive.css">
-    <link rel="stylesheet/less" href="assets/less/style.less">
-    <script type="text/javascript" src="assets/js/less.min.js"> </script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="common-container">
 
       <div class="container top-logo-header" id="top-logo-header">
-        <div class="row justify-content-center">
+        <div class="row align-items-center justify-content-center">
           <div class="col text-center align-items-center logo-heder">
             <a href="#" class="logo-heder"> Kauf</a>
           </div>
@@ -116,12 +115,16 @@
 
       <section class="product-items" id="product-items">
         <div class="container product-box">
-            <div class="row">
-              <h2>Related Items</h2>
+            <div class="row justify-content-center">
+              <div class="inline-row">
+                <span class="lnr lnr-chevron-left"></span>
+                  <h2>Related Items</h2>
+                <span class="lnr lnr-chevron-right"></span>
+              </div>
             </div>
-              <div class="row product-slider">
+              <div class="row product-slider align-items-center">
               <div class="col-4 ">
-                <div class="row">
+                <div class="row align-items-center">
                   <div class="col-6">
                     <img src="assets/images/Image2.jpg" alt="">
                   </div>
@@ -134,7 +137,7 @@
                 </div>
               </div>
               <div class="col-4 border-items">
-                <div class="row align-items-center">
+                <div class="row align-items-center align-items-center">
                   <div class="col-6">
                     <img src="assets/images/Image1.jpg" alt="">
                   </div>
@@ -147,7 +150,7 @@
                 </div>
               </div>
               <div class="col-4 ">
-                <div class="row">
+                <div class="row align-items-center">
                   <div class="col-6">
                     <img src="assets/images/Image.jpg" alt="">
                   </div>
@@ -233,8 +236,9 @@
                    <p class="cars">
                      <span class="lnr lnr-chevron-up-circle"></span></i> CARS
                    </p>
+
                   <div class="card-body">
-                    <h5 class="card-title">The Seven Most Beautiful Vintage Cars</h5>
+                    <a  href="#"  class="card-title">The Seven Most Beautiful Vintage Cars</a>
                     <p class="card-text">Inspired from this impressive scene, designer Stelios ...</p>
                     <div class="row">
                       <div class="col-3">
@@ -260,7 +264,7 @@
                 <div class="card">
                   <div class="card-body card-2">
                     <p class="card-text"> <img src="assets/images/Layer-3.jpg" alt="">  Ultralinx Jan. 14, 2016</p>
-                    <h5 class="card-title">Finding Home in the Wild</h5>
+                    <a href="#" class="card-title">Finding Home in the Wild</a>
                     <p> <span class="lnr lnr-chevron-down-circle"></span> OUTDOOR </p>
                   </div>
                 </div>
@@ -268,10 +272,10 @@
             <div class="col-md-12 col-lg-10 col-xl-6 responsive-class">
               <div class="card">
                 <div class="row card-3-body">
-                  <div class="col-6">
+                  <div class="col-md-12 col-xl-6 col-lg-6 ">
                     <div class="card-body ">
                       <p class="logo-cart-3"> <span class="lnr lnr-chevron-left-circle"></span></i> ART & DESIGN </p>
-                      <h5 class="card-title">This Coffee Table Inspired By Inception Is Awesome</h5>
+                      <a href="#" class="card-title">This Coffee Table Inspired By Inception Is Awesome</a>
                         <p class="card-text card-text-3" >
                           The 2010 movie Inception,
                           based around characters
@@ -299,7 +303,7 @@
                         </div>
                     </div>
                   </div>
-                  <div class="col-6">
+                  <div class="col-md-12 col-xl-6 col-lg-6 ">
                     <div class="card card-3">
                       <img src="assets/images/Layer-4.jpg" alt="">
                     </div>
@@ -314,10 +318,12 @@
       <section class="video-filter ">
         <div class="container video-cantainer">
                   <div class="row justify-content-end">
-                    <div class="col-4 ">
-                      <h2> More VIDEOS </h2>
+                    <div class="col-4 inline-row">
+                        <span class="lnr lnr-chevron-left"></span>
+                          <h2>More VIDEOS</h2>
+                        <span class="lnr lnr-chevron-right"></span>
                     </div>
-                    <div class="col-4">
+                    <div class="col-3">
                       <div class="row no-gutters justify-content-end autoplay">
                         <div class="col-2">
                           <div class="switch float-right" >
@@ -336,7 +342,7 @@
                     </div>
                   </div>
                   <div class=" row video-slider justify-content-center">
-                    <div class="col-md-auto">
+                    <div class="col-md-auto col-xl-4">
                       <div class="video-wrapper rounded  ">
                         <video width="100%"  class="video-slider-setting" id="bVideop1" poster="data:image/gif,AAAA" style="background: no-repeat url('assets/images/Layer-6.jpg');">
                           <source src="assets/video/venom.mp4" type="video/mp4" />

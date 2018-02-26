@@ -1,6 +1,8 @@
-var sass = require('sass');
+
 
 $(document).ready(function(){
+
+
   $('.video-slider').slick({
     infinite: true,
     slidesToShow: 5,
@@ -9,8 +11,8 @@ $(document).ready(function(){
     {
         breakpoint: 1000,
         settings: {
-        slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToShow: 1,
+        slidesToScroll: 1
       }
     }
   ]
@@ -24,7 +26,7 @@ $(document).ready(function(){
     {
         breakpoint: 1000,
         settings: {
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }

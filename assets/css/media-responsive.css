@@ -36,13 +36,13 @@ button.slick-next.slick-arrow {
 
   }
   .product-slider button.slick-next.slick-arrow {
-      right: 485px;
+          right: 492px;
   }
   .product-slider button.slick-prev.slick-arrow {
       left: 485px;
   }
   button.slick-prev.slick-arrow {
-      left: 485px;
+      left: 500px;
   }
   button.slick-next.slick-arrow {
     right: 485px;
