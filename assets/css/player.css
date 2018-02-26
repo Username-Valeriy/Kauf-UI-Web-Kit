@@ -1,0 +1,129 @@
+.video-wrapper {
+  position: relative;
+      max-width: 745px;
+}
+
+.video-wrapper > video {
+  width: 690px;
+    max-width: 100%;
+    box-sizing: border-box;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+/* Hide iOS Play Button */
+video::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
+
+
+
+
+.playButton:before {
+
+  display: block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 50px;
+  border-color: transparent transparent transparent #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: -10px;
+  bottom: 0;
+  margin: auto;
+}
+/*
+.pauseButton {
+  border-radius: 100px;
+  border: 8px solid #fff !important;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+  display: block;
+  opacity: 0.95;
+  transition: opacity 150ms;
+}
+
+.pauseButton:before {
+   display: block;
+   width: 10px;
+   content: "";
+   background-color: #FFF;
+   height: 50px;
+   position: absolute;
+   left: 30px;
+   top: 23px;
+}
+
+.pauseButton:after {
+   display: block;
+   width: 10px;
+   content: "";
+   background-color: #FFF;
+   height: 50px;
+   position: absolute;
+   right: 30px;
+   top: 23px;
+}
+*/
+
+
+.playButton {
+
+    background-image: url(../images/play.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    cursor: pointer;
+    display: block;
+    opacity: 0.95;
+    transition: opacity 400ms;
+}
+
+
+.replayButton:before {
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+
+  display: block;
+  border-color: transparent white white white;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 8px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  }
+  .replayButton:after {
+    border-color: transparent transparent transparent white;
+    border-style: solid;
+    border-width: 0 45px 22px 22px;
+    height: 0;
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    bottom: 0;
+    right: 0;
+    width: 0;
+
+    display: block;
+    margin: auto;
+  }
+}
