@@ -1,3 +1,5 @@
+var sass = require('sass');
+
 $(document).ready(function(){
   $('.video-slider').slick({
     infinite: true,

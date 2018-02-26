@@ -1,0 +1,23 @@
+{
+  "name": "kauf-ui-web-kit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.0.0-beta.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Username-Valeriy/Kauf-UI-Web-Kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Username-Valeriy/Kauf-UI-Web-Kit/issues"
+  },
+  "homepage": "https://github.com/Username-Valeriy/Kauf-UI-Web-Kit#readme"
+}
